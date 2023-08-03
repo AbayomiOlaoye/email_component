@@ -1,19 +1,18 @@
 import './App.css';
+import ListEmail from './components/listEmail';
 
 function App() {
   return (
     <div className="App">
-      <body className="App-header">
         <h1>Hello, World!</h1>
         <p>I am <strong>Acco AI Mail Reader</strong></p>
 
         <section className="newMail">
           <h2>Inbox</h2>
           <div className="mail">
-            Let's see
+            <ListEmail />
           </div>
         </section>
-      </body>
     </div>
   );
 }
